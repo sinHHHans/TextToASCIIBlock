@@ -4,8 +4,8 @@ RM=rm -f
 CPPFLAGS=-g -cpp
 LDFLAGS=-g 
 
-SRCS=main.cpp String.cpp
-OBJS=$(subst .cc,.o,$(SRCS))
+SRCS=main.cpp ConvString.cpp
+OBJS=$(subst .cpp,.o,$(SRCS))
 
 all: converter
 

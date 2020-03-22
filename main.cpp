@@ -1,17 +1,19 @@
 #include "globals.h"
-#include "String.h"
+#include "ConvString.h"
 
 int main ()
 {
 	ConvString CString;
 	cout <<"Geben Sie ein Wort ein"<<endl;
 	cin >>CString;
+
+	//ofstream output("Output.txt");
+	//cout<<CString;
 	
-		
-
-	ofstream output("Output.txt");
-	output<<CString;
-
+	
+	cout<<CString;//.to_ascii_block();
+	//cout<<"String: "<<CString.getString();
+	cout<<CString.to_ascii_block();
 	getchar();
 	getchar();
 
