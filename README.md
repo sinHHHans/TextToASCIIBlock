@@ -12,7 +12,9 @@ TEXT TO   |/     \|   \_______)   (_______/   \_______/   \_______/    BLOCK
 # TextToASCIIBlock for C++ and Python
 
 This is a small C++ function that converts an Input String to an ASCII Art-like Textblock as Output. SWIG-Binding for Python will be included.
+
 Example:
+
 Input: 
 Stewie is cool
 
