@@ -47,25 +47,25 @@ In order to build the python library I recommend:
 The software comes with a SWIG interface that allows you to run the decoder in Python.
 You can build the software on your machine with the provided `setup.py` file.
 Simply run:
-``
+```
  swig -c++ -python ascii_block.i
-``
+```
 Expected output is no output.
-``
+```
  python setup.py build_ext --inplace
-``
+```
 Expected output:
-``
+```
 running build_ext
 building '_ascii_block' extension
 creating build
 (... Compiler output without errors or warnings ...)
 
-``
+```
 Afterwards, run
-``
+```
  python test.py
-``
+```
 
 Expected output can be seen in the top (Stewie is cool). For an explanation of this, see: https://www.youtube.com/watch?v=3PD8W2OogE0
 
