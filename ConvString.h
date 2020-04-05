@@ -1,6 +1,13 @@
 #ifndef STRING_INC
-#include "globals.h"
 #define STRING_INC
+
+//#include <fstream>
+//#include <math.h>
+//#include <cstring>
+#include <string>
+#include <sstream> 
+
+using namespace std;
 
 class ConvString
 {

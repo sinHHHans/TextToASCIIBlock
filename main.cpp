@@ -1,11 +1,11 @@
-#include "globals.h"
 #include "ConvString.h"
+#include <iostream>
 
 int main ()
 {
 	
 	string input_string;
-	cout <<"Geben Sie ein Wort ein"<<endl;
+	cout <<"Enter text to convert"<<endl;
 	getline(cin, input_string);
 	
 	ConvString CString(input_string);
