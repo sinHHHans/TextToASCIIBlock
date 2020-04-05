@@ -3,16 +3,17 @@
 
 int main ()
 {
-	ConvString CString;
+	
+	string input_string;
 	cout <<"Geben Sie ein Wort ein"<<endl;
-	cin >>CString;
-
-	//ofstream output("Output.txt");
-	//cout<<CString;
+	getline(cin, input_string);
 	
+	ConvString CString(input_string);
 	
+	cout << "As output stream" << endl;
 	cout<<CString;//.to_ascii_block();
-	//cout<<"String: "<<CString.getString();
+
+	cout << "By function call" << endl;
 	cout<<CString.to_ascii_block();
 	getchar();
 	getchar();
