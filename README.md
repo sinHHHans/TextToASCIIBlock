@@ -35,7 +35,7 @@ Output:
 * C++ Compiler, I use gcc 9.3.0, but others should work too.
 * GNU Make 4.3 or higher if you want to use the makefile
 #### Running
-For usage in C++ Projects, simply ´#include "ConvString.h"`, only `STL` is required. For an example, you can make the example by running with the provided makefile.
+For usage in C++ Projects, simply `#include "ConvString.h"`, only `STL` is required. For an example, you can make the example by running with the provided makefile.
 
 ### Usage in Python 
 #### Requirements
